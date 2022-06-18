@@ -1,0 +1,420 @@
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/ 
+
+body{
+	font-family: Arial,sans-serif;
+	color: #333333;
+	line-height: 1.166;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	background-color:#FFFFFF;
+	font-size: 12px;
+}
+.fondocuerpo{
+	width:770px;
+	background-image: url(fotos/fondoprincipal.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+}
+a{
+	color: #006699;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a:link{
+	color: #006699;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a:visited{
+	color: #006699;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a:hover{
+	color: #006699;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+a.ofertas{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	background-color: #FF9933;
+}
+
+a.ofertas:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a.ofertas:link{
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a.ofertas:hover{
+	color: #FFFFFF;
+	background-color: #B5D3EF;
+}
+
+h1{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 120%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+h2{
+ font-family: Arial,sans-serif;
+ font-size: 15px;
+ color: #006699;
+ margin: 0px;
+ padding: 0px;
+}
+
+h3{
+ font-family: Arial,sans-serif;
+ font-size: 13px;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+h4{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: normal;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+}
+
+h5{
+ font-family: Verdana,Arial,sans-serif;
+ font-size: 100%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #334d55;
+}
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+#direccionPostal {	font-size: 10px;
+	color: #000088;
+	padding-left: 25px;
+	font-weight: bold;
+}
+#masthead{
+	font-size: 45px;
+	color: #02068B;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	width: 429px;
+	position: relative;
+	top:8px;
+	left:0px;
+	visibility: visible;
+}
+#masthead_eng{
+	font-size: 41px;
+	color: #02068B;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	width: 429px;
+	position: relative;
+	top:8px;
+	left:0px;
+	visibility: visible;
+}
+#masthead_ale{
+	font-size: 45px;
+	color: #02068B;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	width: 429px;
+	position: relative;
+	top:8px;
+	left:0px;
+	visibility: visible;
+}
+.registrada {
+	font-size: 18px;
+	color: #09099F;
+	margin-right: 5px;
+	margin-left: -5px;
+}
+.subtitulo {font-size: 13px}
+
+#navBar{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(fotos/fondoprincipal.jpg);
+	border-bottom: 1px solid #CCF3FF;
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+#content{
+	float: left;
+	width: 58.2%;
+}
+/***********************************************/
+/* Components                                  */
+/***********************************************/
+
+#siteName{
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+.contactodistrib {
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+/************* #globalNav styles **************/
+
+#globalNav{
+padding: 0px 0px 5px 10px;
+border-bottom: 1px solid #CCC;
+color: #cccccc;
+}
+
+#globalNav img{
+ display: block;
+}
+
+#globalNav a {
+	font-size: 90%;
+	padding: 0 4px 0 0;
+}
+
+/*************** #pageName styles **************/
+
+#pageName{
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+/************** .feature styles ***************/
+
+.feature{
+	padding: 5px 10px 5px 10px;
+	font-size: 12px;
+
+}
+
+.feature h3{
+	padding: 30px 0px 5px 0px;
+}
+
+.feature.volver{
+	font-weight:bold;
+}
+.feature td{
+	font-size:12px;
+}
+/************** #ruta styles *****************/
+#direccionweb {
+	font-size: 12px;
+	font-weight:bold;
+	padding-top:7px;
+	color: #FFFFFF;
+	padding-left: 16px;
+}
+#direccionweb a{
+	color: #392C7B;
+}
+
+#rutaBarraNavegacion {
+	text-align:right;
+	padding-top:2px;
+}
+#ruta {
+	font-size: 12px;
+	font-weight:bold;
+	padding-top:7px;
+	color: #392C7B;
+}
+#ruta a{
+	color: #392C7B;
+}
+.volverListadoBoton {
+	font-size: 12px;
+	font-weight:bold;
+	padding-top:7px;
+	color: #392C7B;
+}
+#fecha {
+	font-size: 12px;
+	color: #392C7B;
+	font-weight:bold;
+	float: right;
+}
+
+/************* #siteInfo styles ***************/
+
+#siteInfo{
+	font-size: 12px;
+	padding: 7px 10px 7px 10px;
+	color: #006699;
+	font-weight: bold;
+	background-image: url(fotos/pie.jpg);
+	background-repeat: no-repeat;
+}
+
+#siteInfo img{
+	vertical-align: middle;
+	border-width: 0px 0px 0px 0px;
+}
+
+#siteInfo a.validacion {
+	color:#FF9933;
+	font-weight:normal;
+}
+
+
+/************* #search styles ***************/
+
+#search{
+	padding: 5px 0px 5px 10px;
+	font-size: 90%;
+	border-top: 1px solid #CCF3FF;
+}
+
+#search form{
+ margin: 0px;
+ padding: 0px;
+}
+
+#search label{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+/* buttons and listboxes */
+.buttons {
+	 font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif ; color: #000000; background-color: #FFFFFF; border: 1px #333333 solid
+	}
+	
+.inputbox {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 1px #333333 solid;
+	}
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	background-image: url(fotos/fondoprincipal.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+#sectionLinks h3{
+	padding: 10px 0px 2px 10px;
+}
+
+#sectionLinks a {
+	display: block;
+	width:100%;
+	border-top: 1px solid #CCF3FF;
+	padding: 5px 2px 5px 10px;
+	font-weight: bold;
+	font-size: 13px;
+	overflow: hidden;
+}
+
+#sectionLinks a:hover{
+	background-color: #F7F3F7;
+	color: #000000;
+	overflow: hidden;
+}
+
+/************** #advert styles **************/
+
+#advert{
+	padding: 0px 0px 10px;
+	border-top: 1px solid #CCF3FF;;
+}
+
+#advert img{
+	display: block;
+}
+
+
+/************** #headlines styles **************/
+
+#headlines{
+	width: 100%;
+	margin: 0px;
+	padding: 10px 0px 20px 0px;
+	font-size: 12px;
+	background-image: url(fotos/fondoprincipal.jpg);
+	background-repeat: repeat-x;
+	height: 100%;
+	
+}
+
+#headlines p{
+	padding: 5px 0px 5px 0px;
+}
+
+
+#headlines a{
+	font-weight:bold;
+}
+.imagListado {
+	border: 1px solid #CCCCCC;
+}
+
+/************** ofertas **************/
+.texto_ofertas{
+	font-size: 17px;
+	color: #FF9900;
+	font-weight: bold;
+	}

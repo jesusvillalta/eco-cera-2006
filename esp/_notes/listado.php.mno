@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_productos" value="name:ref;datatype:int,name:cabecera;datatype:string,name:subtitulo_es;datatype:string,name:texto_es;datatype:blob" />
+	<infoitem key="UD_imagenes" value="name:foto_es;datatype:blob" />
+</info>
